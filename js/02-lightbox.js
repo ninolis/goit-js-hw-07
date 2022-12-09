@@ -5,9 +5,6 @@ import { galleryItems } from './gallery-items.js';
 
 const gallery = document.querySelector('.gallery');
 
-console.log("it's me");
-console.log(galleryItems);
-
 // Function to create single gallery item
 const createGalleryItem = ({ preview, original, description }) => {
   const galleryItemEl = document.createElement('a');
