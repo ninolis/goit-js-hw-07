@@ -20,7 +20,6 @@ const createGalleryItem = ({ preview, original, description }) => {
 
   imageEl.src = preview;
   imageEl.alt = description;
-  // // galleryItemEl.append(imageLinkEl, imageEl);
   imageLinkEl.append(imageEl);
   galleryItemEl.append(imageLinkEl);
   return galleryItemEl;
