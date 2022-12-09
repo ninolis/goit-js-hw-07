@@ -57,3 +57,4 @@ function modalImageZoom(event) {
 }
 
 gallery.addEventListener('click', modalImageZoom);
+gallery.removeEventListener('click', modalImageZoom);
