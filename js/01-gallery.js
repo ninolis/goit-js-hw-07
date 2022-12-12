@@ -57,4 +57,4 @@ alt="${event.target.alt}"
 }
 
 gallery.addEventListener('click', modalImageZoom);
-// gallery.removeEventListener('click', modalImageZoom);
+gallery.removeEventListener('click', modalImageZoom, true);
